@@ -1,29 +1,7 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:nav/credit.dart';
 import 'package:nav/payment.dart';
-import 'package:nav/splash.dart';
 import 'package:nav/visitor.dart';
-
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Splash(),
-      theme: ThemeData
-      (
-        primarySwatch: Colors.cyan
-      ),
-      
-    );
-  }
-}
 
 class MyDrawerApp extends StatelessWidget {
 
